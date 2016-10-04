@@ -1,149 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <title>Bootswatch: Spacelab</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    </script>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" integrity="sha384-2hfp1SzUoho7/TsGGGDaFdsuuDL0LX2hnUp6VkX3CUQ2K4K+xjboZdsXyp4oUHZj" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/js/bootstrap.min.js" integrity="sha384-VjEeINv9OSwtWFLAtmc4JCtEJXXBub00gtSnszmspDLCtC0I4z4nqz7rEFbIZLLU" crossorigin="anonymous"></script>
   </head>
   <body>
-    <div class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <a href="../" class="navbar-brand">Bootswatch</a>
-          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        </div>
-        <div class="navbar-collapse collapse" id="navbar-main">
-          <ul class="nav navbar-nav">
-            <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="themes">Themes <span class="caret"></span></a>
-              <ul class="dropdown-menu" aria-labelledby="themes">
-                <li><a href="../default/">Default</a></li>
-                <li class="divider"></li>
-                <li><a href="../cerulean/">Cerulean</a></li>
-                <li><a href="../cosmo/">Cosmo</a></li>
-                <li><a href="../cyborg/">Cyborg</a></li>
-                <li><a href="../darkly/">Darkly</a></li>
-                <li><a href="../flatly/">Flatly</a></li>
-                <li><a href="../journal/">Journal</a></li>
-                <li><a href="../lumen/">Lumen</a></li>
-                <li><a href="../paper/">Paper</a></li>
-                <li><a href="../readable/">Readable</a></li>
-                <li><a href="../sandstone/">Sandstone</a></li>
-                <li><a href="../simplex/">Simplex</a></li>
-                <li><a href="../slate/">Slate</a></li>
-                <li><a href="../spacelab/">Spacelab</a></li>
-                <li><a href="../superhero/">Superhero</a></li>
-                <li><a href="../united/">United</a></li>
-                <li><a href="../yeti/">Yeti</a></li>
-              </ul>
-            </li>
-            <li>
-              <a href="../help/">Help</a>
-            </li>
-            <li>
-              <a href="http://news.bootswatch.com">Blog</a>
-            </li>
-            <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="download">Spacelab <span class="caret"></span></a>
-              <ul class="dropdown-menu" aria-labelledby="download">
-                <li><a href="http://jsfiddle.net/bootswatch/Laobkr1d/">Open Sandbox</a></li>
-                <li class="divider"></li>
-                <li><a href="./bootstrap.min.css">bootstrap.min.css</a></li>
-                <li><a href="./bootstrap.css">bootstrap.css</a></li>
-                <li class="divider"></li>
-                <li><a href="./variables.less">variables.less</a></li>
-                <li><a href="./bootswatch.less">bootswatch.less</a></li>
-                <li class="divider"></li>
-                <li><a href="./_variables.scss">_variables.scss</a></li>
-                <li><a href="./_bootswatch.scss">_bootswatch.scss</a></li>
-              </ul>
-            </li>
-          </ul>
 
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="http://builtwithbootstrap.com/" target="_blank">Built With Bootstrap</a></li>
-            <li><a href="https://wrapbootstrap.com/?ref=bsw" target="_blank">WrapBootstrap</a></li>
-          </ul>
-
+    <nav class="navbar navbar-light bg-faded">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar" aria-controls="exCollapsingNavbar" aria-expanded="false" aria-label="Toggle navigation">
+        &#9776;
+      </button>
+      <div class="collapse" id="exCollapsingNavbar">
+        <div class="bg-inverse p-a-1">
+          <h4>Collapsed content</h4>
+          <span class="text-muted">Toggleable via the navbar brand.</span>
         </div>
       </div>
+    </nav>
+
+    <div class="pic-container">
+      <div class="jumbo-container">
+        <div class="jumbotron">
+          <h1 class="display-3">Live.<br> Now.</h1>
+          <p class="lead">Live.</p>
+          <hr class="m-y-2">
+          </p>
+        </div>
+      </div>
+
+      <img src="https://hd.unsplash.com/photo-1461263895214-7761d3a942de" class="img-responsive" class="img-circle" alt="Responsive image">
     </div>
-
-
-    <div class="container">
-
-      <div class="page-header" id="banner">
-        <div class="row">
-          <div class="col-lg-8 col-md-7 col-sm-6">
-            <h1>Spacelab</h1>
-            <p class="lead">Silvery and sleek</p>
-          </div>
-          <div class="col-lg-4 col-md-5 col-sm-6">
-            <div class="sponsor">
-              <script async type="text/javas class="col-lg-3 col-md-3 col-sm-4">
-<div class="list-group table-of-contents">
-<a class="list-group-item" href="#navbar">Navbar</a>
-<a class="list-group-item" href="#buttons">Buttons</a>
-<a class="list-group-item" href="#typography">Typography</a>
-div class="col-lg-12">
-<div class="page-header">
-<h1 id="navbar">Navbar</h1>
-</div>
-
-s="form-control" placeholder="Search">
-</div>
-<button type="submit" class="btn btnr-brand" href="#">Brand</a>
-</div>
-
-<div class="collapse navbar-collapse" id="bs-example-n>One more separated link</a></li>
-</ul>
-</li>
-</ul>
-</div>
-</div>
-</div>
-
-<div class=" <div class="btn-group">
-<a href="#" class="b"#" class="btn btn-default">Right</a>
-</div>
-<div class="page-header">
-<h1 id="typography">Typography</h1>
-</div>
-</div>
-</div>
-
-<!-- Headings -->
-
-<div class="row">
-iv>
-</div>
-
-<img src="https://snap-photos.s3.amazonaws.com/img-thumbs/960w/Z3GFBY5EZF.jpg" alt="">
-
-<!-- Tables
-=====================t</td>
-<td>Column content</td>
-onto a new line and may extend beyond one line.</span>
-t</button>
-</div>
-</div>
-<p>Etsy mixtape wayfarers, ethical wes anderson ss="active"><a href="#">1</a></li>
-<li><a href=           <div class="alert alert-dismissible alert-info">
-</div>
-</div>
-</div>
-</div>
-
-<!ass="panel-heading">
-<h3 class="panel-title">"btn btn-default" data-dismiss="modal">Close</button>
-
+  </body>
 </html>
